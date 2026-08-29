@@ -6,7 +6,7 @@
 			• How it works: An MLP treats the input features as a single, fixed group of numbers. It processes them all at the same time, calculating feature interactions in parallel. You can think of it like looking at a coordinate (x,y,zx,y,z) and running the numbers through a calculator to get a single output.
         Best for: Structured, fixed-size data, like images (processed after feature extraction), tabular data, or simple numerical predictions where the order of the inputs doesn't fundamentally change the meaning.
 
-		<img width="450" height="130" alt="image" src="https://github.com/user-attachments/assets/d374521e-8d78-44ee-8e8e-d1f5ced700e7" />
+
 
 
 ** The Code **
