@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "abhi_ai_toolkit"
+version = "0.1.0"
+description = "A versatile AI toolkit featuring data loading, model building, and training cycles."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+keywords = ["machine-learning", "ai", "torch", "mlops"]
+authors = [{name = "Abhishek Kumar", email = "kumar.x.abhishek@googlemail.com"}]
+
+[tool.setuptools.packages.find]
+where = ["src"]
